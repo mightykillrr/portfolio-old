@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <h1>Hi! I'm Aniket</h1>
-    <p>And I love to write beautiful websites.</p>
+    <p>And I am a <em>Full-Stack</em> Web Developer.</p>
     <div class="button-container">
       <BaseButton type="primary" text="My Projects &rarr;" />
       <BaseButton type="flat" text="Know more" />
@@ -18,6 +18,10 @@ export default {
 </script>
 
 <style scoped>
+em {
+  color: #f66;
+}
+
 .button-container {
   margin-top: 3rem;
   display: flex;
@@ -25,7 +29,10 @@ export default {
 }
 
 .container {
-  margin-top: 10rem;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 h1 {
