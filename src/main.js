@@ -1,5 +1,12 @@
-import { createApp } from 'vue'
-import App from './App.vue'
-import router from './router'
+import { createApp } from "vue";
+import App from "./App.vue";
+import router from "./router";
 
-createApp(App).use(router).mount('#app')
+import BaseButton from "./components/ui/BaseButton.vue";
+import SmallBadge from "./components/ui/SmallBadge.vue";
+
+createApp(App)
+  .use(router)
+  .component("BaseButton", BaseButton)
+  .component("SmallBadge", SmallBadge)
+  .mount("#app");

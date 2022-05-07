@@ -1,15 +1,15 @@
 <template>
-  <button :class="type">{{ text }}</button>
+  <a :href="link" :class="type">{{ text }}</a>
 </template>
 
 <script>
 export default {
-  props: ["type", "text"],
+  props: ["type", "text", "link"],
 };
 </script>
 
 <style scoped>
-button {
+a {
   background: none;
   padding: 1.5rem 3rem;
   border-radius: 10px;
@@ -18,14 +18,15 @@ button {
   cursor: pointer;
   transition: all 0.2s ease;
   font-family: inherit;
+  text-decoration: none;
 }
 
-button:hover {
+a:hover {
   box-shadow: 0 0 0 2px rgba(255, 102, 102, 0.4) inset;
   filter: brightness(120%);
 }
 
-button:active {
+a:active {
   filter: brightness(95%);
 }
 
@@ -35,6 +36,6 @@ button:active {
 }
 
 .flat {
-  color: #222;
+  color: #333;
 }
 </style>

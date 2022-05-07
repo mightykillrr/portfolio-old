@@ -3,18 +3,14 @@
     <h1>Hi! I'm Aniket</h1>
     <p>And I am a <em>Full-Stack</em> Web Developer.</p>
     <div class="button-container">
-      <BaseButton type="primary" text="My Projects &rarr;" />
-      <BaseButton type="flat" text="Know more" />
+      <BaseButton type="primary" text="My Projects &rarr;" link="#" />
+      <BaseButton type="flat" text="Know more" link="#" />
     </div>
   </div>
 </template>
 
 <script>
-import BaseButton from "../ui/BaseButton.vue";
-
-export default {
-  components: { BaseButton },
-};
+export default {};
 </script>
 
 <style scoped>
@@ -29,10 +25,11 @@ em {
 }
 
 .container {
-  height: 80vh;
+  height: 65rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 h1 {
