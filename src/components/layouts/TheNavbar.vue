@@ -19,4 +19,31 @@ nav {
   display: flex;
   align-items: center;
 }
+
+img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+div {
+  display: flex;
+  align-items: center;
+  gap: 1.3rem;
+  font-weight: 700;
+}
+
+nav {
+  padding: 2rem 2rem;
+  gap: 3.5rem;
+}
+
+a:link,
+a:visited {
+  font-family: "Fira Sans";
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: #222;
+}
 </style>

@@ -14,7 +14,7 @@ export default {
 </script>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@100;200;300;400;500;600;700;800&display=swap");
 
 *,
 *::before,
@@ -29,8 +29,8 @@ html {
 }
 
 body {
-  max-width: 1440px;
+  max-width: 1400px;
   margin: 0 auto;
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 </style>

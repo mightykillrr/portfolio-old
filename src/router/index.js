@@ -17,7 +17,7 @@ const routes = [
     component: MyWorks,
   },
   {
-    path: "/link",
+    path: "/links",
     name: "my-links",
     component: MyLinks,
   },
