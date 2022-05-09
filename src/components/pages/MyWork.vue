@@ -1,24 +1,26 @@
 <template>
-  <header>
-    <ion-icon name="code-working" />
-    <h1>My Works</h1>
-  </header>
-  <p>
-    Here are the projects I've worked on. Feel free to explore each of them.
-  </p>
   <div>
-    <FeaturedCard
-      v-for="(data, index) in featuredData"
-      :key="index"
-      :image="data.image"
-      :name="data.name"
-      :date="data.date"
-      :type="data.type"
-      :desc="data.desc"
-      :lang="data.lang"
-      :live="data.live"
-      :link="data.link"
-    />
+    <header>
+      <ion-icon name="code-working" />
+      <h1>My Works</h1>
+    </header>
+    <p>
+      Here are the projects I've worked on. Feel free to explore each of them.
+    </p>
+    <div class="ff">
+      <FeaturedCard
+        v-for="(data, index) in featuredData"
+        :key="index"
+        :image="data.image"
+        :name="data.name"
+        :date="data.date"
+        :type="data.type"
+        :desc="data.desc"
+        :lang="data.lang"
+        :live="data.live"
+        :link="data.link"
+      />
+    </div>
   </div>
 </template>
 
@@ -94,7 +96,7 @@ export default {
 </script>
 
 <style scoped>
-div {
+.ff {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   row-gap: 2rem;

@@ -1,7 +1,9 @@
 <template>
-  <!-- <AccentBar :image="require('../../assets/imgs/accent-image.jpg')" /> -->
-  <TheHero />
-  <FeaturedSection />
+  <div>
+    <TheHero />
+    <a id="knowMore" class="featuredHome" />
+    <FeaturedSection />
+  </div>
 </template>
 
 <script>

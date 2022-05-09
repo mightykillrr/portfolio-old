@@ -1,10 +1,13 @@
 <template>
-  <a :href="link" :class="type">{{ text }}</a>
+  <router-link v-if="isRouter === 'yes'" :to="link" :class="type">{{
+    text
+  }}</router-link>
+  <a v-else :href="link" :class="type">{{ text }}</a>
 </template>
 
 <script>
 export default {
-  props: ["type", "text", "link"],
+  props: ["type", "text", "link", "isRouter"],
 };
 </script>
 

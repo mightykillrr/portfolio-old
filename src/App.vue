@@ -1,6 +1,10 @@
 <template>
   <TheNavbar />
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <transition name="fade" mode="out-in">
+      <component :is="Component" />
+    </transition>
+  </router-view>
   <TheFooter />
 </template>
 
@@ -35,5 +39,15 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   font-family: "Fira Sans", sans-serif;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: all 0.3s ease;
 }
 </style>

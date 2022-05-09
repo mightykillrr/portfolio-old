@@ -3,14 +3,32 @@
     <h1>Hi! I'm Aniket</h1>
     <p>And I am a <em>Full-Stack</em> Web Developer.</p>
     <div class="button-container">
-      <BaseButton type="primary" text="My Projects &rarr;" link="#" />
-      <BaseButton type="flat" text="Know more" link="#" />
+      <BaseButton
+        isRouter="yes"
+        type="primary"
+        text="My Projects &rarr;"
+        link="/work"
+      />
+      <BaseButton
+        type="flat"
+        text="Know more"
+        link="#knowMore"
+        @click.prevent="scrollDown"
+      />
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  methods: {
+    scrollDown() {
+      const ar = document.querySelector(".featuredHome");
+      console.log(ar);
+      ar.scrollIntoView({ behavior: "smooth" });
+    },
+  },
+};
 </script>
 
 <style scoped>
