@@ -27,6 +27,18 @@ span {
   border-radius: 10px;
 }
 
+.nodejs {
+  background-color: #6da55f;
+}
+
+.heroku {
+  background-color: #3b0095;
+}
+
+.mongodb {
+  background-color: #409042;
+}
+
 .html {
   background-color: #dd4b25;
 }

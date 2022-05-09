@@ -8,7 +8,6 @@
       <router-link to="/">Aniket Kotal</router-link>
     </div>
     <router-link to="/work">My Works</router-link>
-    <router-link to="/links">My Links</router-link>
     <router-link to="/about">About Me</router-link>
   </nav>
 </template>

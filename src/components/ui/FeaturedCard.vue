@@ -10,7 +10,7 @@
     <div class="badges" v-if="lang">
       <SmallBadge v-for="(a, i) in lang" :key="i" :type="a" />
     </div>
-    <div v-if="type === 'Project'">
+    <div v-if="link">
       <div class="btns">
         <BaseButton type="primary" text="Live Demo" :link="live" />
         <BaseButton type="flat" text="Github" :link="link" />
@@ -32,8 +32,13 @@ export default {
 }
 
 .badges {
+  /* display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr); */
+
   display: flex;
-  gap: 0.5rem;
+  flex-wrap: wrap;
+  gap: 0.7rem;
 }
 
 .card {
@@ -41,10 +46,10 @@ export default {
   flex-direction: column;
   border: solid 1px rgba(0, 0, 0, 0.1);
   border-radius: 10px;
-  height: 100%;
+  /* height: 100%; */
   width: 30rem;
   padding: 2rem;
-  transition: border 0.3s ease;
+  transition: all 0.2s ease;
   gap: 3rem;
 }
 

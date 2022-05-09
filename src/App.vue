@@ -1,14 +1,17 @@
 <template>
   <TheNavbar />
   <router-view />
+  <TheFooter />
 </template>
 
 <script>
+import TheFooter from "./components/layouts/TheFooter.vue";
 import TheNavbar from "./components/layouts/TheNavbar.vue";
 
 export default {
   components: {
     TheNavbar,
+    TheFooter,
   },
 };
 </script>

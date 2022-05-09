@@ -2,7 +2,6 @@ import { createRouter, createWebHistory } from "vue-router";
 
 import MyWorks from "../components/pages/MyWork.vue";
 import TheHome from "../components/pages/TheHome.vue";
-import MyLinks from "../components/pages/MyLinks.vue";
 import AboutMe from "../components/pages/AboutMe.vue";
 
 const routes = [
@@ -17,11 +16,6 @@ const routes = [
     component: MyWorks,
   },
   {
-    path: "/links",
-    name: "my-links",
-    component: MyLinks,
-  },
-  {
     path: "/about",
     name: "about-me",
     component: AboutMe,
@@ -31,6 +25,13 @@ const routes = [
 const router = createRouter({
   history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition;
+    } else {
+      return { top: 0 };
+    }
+  },
 });
 
 export default router;
