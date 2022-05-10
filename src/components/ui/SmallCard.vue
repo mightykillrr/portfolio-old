@@ -55,4 +55,10 @@ p {
   width: 15rem;
   text-overflow: ellipsis;
 }
+
+@media (max-width: 88.5em) {
+  .card {
+    width: 100%;
+  }
+}
 </style>

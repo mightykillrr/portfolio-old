@@ -28,6 +28,7 @@ export default {
 <style scoped>
 .btns {
   display: flex;
+  justify-content: space-around;
   gap: 1rem;
 }
 
@@ -93,4 +94,31 @@ p {
   text-align: center;
   font-weight: 400;
 }
+
+@media (max-width: 83em) {
+  .card {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .card {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 49em) {
+  img {
+    height: 18rem;
+  }
+  .card {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .card {
+    width: 95%;
+  }
+} ;
 </style>

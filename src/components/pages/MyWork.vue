@@ -124,4 +124,25 @@ header {
   color: #333;
   margin-top: 3rem;
 }
+
+@media (max-width: 83em) {
+  .ff {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .ff {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 34em) {
+  .ff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+  }
+}
 </style>

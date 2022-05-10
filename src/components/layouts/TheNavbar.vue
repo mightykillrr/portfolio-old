@@ -34,7 +34,7 @@ div {
 }
 
 nav {
-  padding: 2rem 2rem;
+  padding: 2rem 0;
   gap: 3.5rem;
 }
 
@@ -44,5 +44,17 @@ a:visited {
   font-size: 1.8rem;
   text-decoration: none;
   color: #222;
+}
+
+@media (max-width: 62.5em) {
+  a:link,
+  a:visited {
+    font-size: 2rem;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
 }
 </style>

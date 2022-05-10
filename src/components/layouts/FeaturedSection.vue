@@ -4,7 +4,7 @@
     <h1>Featured</h1>
   </header>
   <p>Here are some things that I'm proud of!</p>
-  <div>
+  <div class="holder">
     <FeaturedCard
       v-for="(data, index) in featuredData"
       :key="index"
@@ -17,7 +17,9 @@
       :live="data.live"
       :link="data.link"
     />
-    <ShowMoreBtn />
+    <div class="btnn">
+      <ShowMoreBtn />
+    </div>
   </div>
 </template>
 
@@ -94,11 +96,15 @@ export default {
 </script>
 
 <style scoped>
-div {
+.holder {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  row-gap: 2rem;
   padding: 3rem 0;
+}
+
+.btnn {
+  display: flex;
+  justify-content: center;
 }
 
 p {
@@ -120,5 +126,34 @@ header {
   display: flex;
   align-items: center;
   color: #333;
+}
+
+@media (max-width: 83em) {
+  .holder {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .btnn {
+    display: none;
+  }
+}
+
+@media (max-width: 62.5em) {
+  .holder {
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+  }
+
+  .holder:nth-child(2) {
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 49rem) {
+  .holder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 </style>

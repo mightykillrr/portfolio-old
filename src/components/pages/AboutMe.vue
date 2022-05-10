@@ -65,6 +65,7 @@ export default {
 <style scoped>
 .links {
   display: grid;
+  column-gap: 2rem;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   margin-bottom: 2.5rem;
 }
@@ -121,5 +122,43 @@ h1 {
 span {
   font-size: 2.2rem;
   font-weight: 300;
+}
+
+@media (max-width: 88.5em) {
+  .links {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 83em) {
+  .links {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 71em) {
+  .links {
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 49em) {
+  .links {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .image img {
+    border: #fff solid 3px;
+  }
 }
 </style>

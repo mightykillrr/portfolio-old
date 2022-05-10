@@ -41,4 +41,12 @@ a:active {
 .flat {
   color: #333;
 }
+
+@media (max-width: 49em) {
+  a {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 3rem;
+  }
+}
 </style>

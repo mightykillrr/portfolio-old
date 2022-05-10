@@ -50,4 +50,61 @@ body {
 .fade-leave-active {
   transition: all 0.3s ease;
 }
+
+@media (max-width: 88.5em) {
+  body {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 83em) {
+  body {
+    max-width: 1200px;
+  }
+}
+
+@media (max-width: 78em) {
+  html {
+    font-size: 55%;
+  }
+
+  body {
+    max-width: 1100px;
+  }
+}
+
+@media (max-width: 71em) {
+  body {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 62.5em) {
+  body {
+    max-width: 800px;
+  }
+  html {
+    font-size: 50%;
+  }
+}
+@media (max-width: 49em) {
+  html {
+    font-size: 40%;
+  }
+  body {
+    max-width: 600px;
+  }
+}
+
+@media (max-width: 34em) {
+  body {
+    max-width: 500px;
+  }
+}
+
+@media (max-width: 25em) {
+  body {
+    max-width: 350px;
+  }
+} ;
 </style>

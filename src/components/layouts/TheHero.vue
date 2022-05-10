@@ -39,11 +39,12 @@ em {
 .button-container {
   margin-top: 3rem;
   display: flex;
+  align-items: center;
   gap: 2rem;
 }
 
 .container {
-  height: 65rem;
+  height: 55rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -59,5 +60,12 @@ h1 {
 p {
   font-size: 2rem;
   font-weight: 400;
+}
+
+@media (max-width: 29em) {
+  .button-container {
+    width: 65%;
+    gap: 0.7rem;
+  }
 }
 </style>
