@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <p>Thank you for visiting!</p>
+    <p>Welcome to my personal website!</p>
     <div class="icons">
       <a href="https://github.com/mightykillrr">
         <ion-icon name="logo-github" />
