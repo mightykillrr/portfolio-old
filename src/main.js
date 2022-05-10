@@ -10,5 +10,8 @@ const app = createApp(App);
 app.use(router);
 app.component("BaseButton", BaseButton);
 app.component("SmallBadge", SmallBadge);
+app.config.compilerOptions.isCustomElement = (tag) => {
+  return tag.startsWith("ion-");
+};
 
 app.mount("#app");

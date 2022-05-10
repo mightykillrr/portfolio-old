@@ -6,12 +6,12 @@
           src="../../assets/imgs/avatar.jpeg"
           alt="An anime headshot picture"
         />
-        Aniket Kotal
+        <span> Aniket Kotal</span>
       </div></router-link
     >
 
-    <router-link to="/work">My Works</router-link>
-    <router-link to="/about">About Me</router-link>
+    <router-link to="/work"><span> My Works</span></router-link>
+    <router-link to="/about"><span>About Me</span></router-link>
   </nav>
 </template>
 
@@ -27,6 +27,12 @@ img {
   height: 50px;
   border-radius: 50%;
   overflow: hidden;
+}
+
+.router-link-active div span,
+.router-link-active span {
+  transition: all 0.1s ease;
+  border-bottom: 0.3rem #f66 solid;
 }
 
 div {
