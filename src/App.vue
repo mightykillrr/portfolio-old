@@ -41,9 +41,12 @@ body {
   font-family: "Fira Sans", sans-serif;
 }
 
-::-moz-selection,
+::-moz-selection {
+  color: #f44;
+  background: rgba(255, 102, 102, 0.3);
+}
+
 ::selection {
-  /* Code for Firefox */
   color: #f44;
   background: rgba(255, 102, 102, 0.3);
 }
