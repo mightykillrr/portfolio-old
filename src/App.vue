@@ -96,9 +96,21 @@ body {
   }
 }
 
-@media (max-width: 34em) {
+@media (max-width: 38rem) {
   body {
     max-width: 500px;
+  }
+}
+
+@media (max-width: 34rem) {
+  body {
+    max-width: 450px;
+  }
+}
+
+@media (max-width: 29rem) {
+  body {
+    max-width: 410px;
   }
 }
 

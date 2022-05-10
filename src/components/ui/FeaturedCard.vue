@@ -110,13 +110,10 @@ p {
     height: 18rem;
   }
   .card {
-    width: 35rem;
+    width: 100%;
   }
 }
 
 @media (max-width: 25em) {
-  .card {
-    width: 95%;
-  }
 }
 </style>

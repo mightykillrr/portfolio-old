@@ -3,7 +3,7 @@
     <ion-icon name="star-outline" />
     <h1>Featured</h1>
   </header>
-  <p>Here are some things that I'm proud of!</p>
+  <p>Here are some things that I'm recently worked on!</p>
   <div class="holder">
     <FeaturedCard
       v-for="(data, index) in featuredData"
