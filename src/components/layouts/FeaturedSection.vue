@@ -45,8 +45,6 @@ export default {
           type: "Project",
           desc: "A very simple Advice Generator, which gives advice with a click!",
           lang: ["HTML", "CSS", "JS", "APIs"],
-          live: "https://advice-generator-ap.vercel.app/",
-          link: "https://github.com/mightykillrr/advice-generator-app-main",
         },
         {
           image: require("../../assets/featured/mikey.jpg"),
@@ -55,8 +53,6 @@ export default {
           type: "Project",
           desc: "A feature-rich Discord bot I made to help me with my server and give action commands with great GIFs.",
           lang: ["JS", "NodeJS", "MongoDB", "Heroku", "APIs"],
-          live: "https://discord.com/api/oauth2/authorize?client_id=819239364395532370&permissions=3912576065&scope=bot%20applications.commands",
-          link: "https://github.com/mightykillrr/advice-generator-app-main",
         },
         {
           image: require("../../assets/featured/calc.jpg"),
@@ -65,8 +61,6 @@ export default {
           type: "Project",
           desc: "An advanced calculator and my first ever HUGE Python project.",
           lang: ["Python", "Math"],
-          live: "https://replit.com/@mightykillrr1/advancedcalc#calc.py",
-          link: "https://github.com/mightykillrr/advanced_calc",
         },
         // {
         //   image: require("../../assets/featured/case_changer.jpg"),
