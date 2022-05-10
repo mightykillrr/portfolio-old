@@ -41,6 +41,13 @@ body {
   font-family: "Fira Sans", sans-serif;
 }
 
+::-moz-selection,
+::selection {
+  /* Code for Firefox */
+  color: #f44;
+  background: rgba(255, 102, 102, 0.3);
+}
+
 .fade-enter-from,
 .fade-leave-to {
   opacity: 0;
