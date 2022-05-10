@@ -10,11 +10,9 @@
     <div class="badges" v-if="lang">
       <SmallBadge v-for="(a, i) in lang" :key="i" :type="a" />
     </div>
-    <div v-if="link">
-      <div class="btns">
-        <BaseButton type="primary" text="Live Demo" :link="live" />
-        <BaseButton type="flat" text="Github" :link="link" />
-      </div>
+    <div class="btnsss" v-if="link">
+      <BaseButton type="primary" text="Live Demo" :link="live" />
+      <BaseButton type="flat" text="Github" :link="link" />
     </div>
   </div>
 </template>
@@ -26,7 +24,7 @@ export default {
 </script>
 
 <style scoped>
-.btns {
+.btnsss {
   display: flex;
   justify-content: space-around;
   gap: 1rem;
@@ -120,5 +118,5 @@ p {
   .card {
     width: 95%;
   }
-} ;
+}
 </style>

@@ -55,7 +55,7 @@ export default {
           type: "Project",
           desc: "A feature-rich Discord bot I made to help me with my server and give action commands with great GIFs.",
           lang: ["JS", "NodeJS", "MongoDB", "Heroku", "APIs"],
-          live: "https://advice-generator-ap.vercel.app/",
+          live: "https://discord.com/api/oauth2/authorize?client_id=819239364395532370&permissions=3912576065&scope=bot%20applications.commands",
           link: "https://github.com/mightykillrr/advice-generator-app-main",
         },
         {

@@ -2,7 +2,14 @@
   <router-link v-if="isRouter === 'yes'" :to="link" :class="type">{{
     text
   }}</router-link>
-  <a v-else :href="link" :class="type">{{ text }}</a>
+  <a
+    v-else
+    :href="link"
+    target="_blank"
+    rel="noopener noreferrer"
+    :class="type"
+    >{{ text }}</a
+  >
 </template>
 
 <script>

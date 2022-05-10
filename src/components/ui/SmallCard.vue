@@ -1,5 +1,5 @@
 <template>
-  <a :href="link">
+  <a :href="link" target="_blank" rel="noopener noreferrer">
     <div class="card">
       <ion-icon :name="logo"></ion-icon>
       <div class="texts">

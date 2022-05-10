@@ -13,7 +13,7 @@
       <h2>About Me</h2>
     </div>
     <p>
-      Hiya! I'm Aniket! <br />I am a full-stack web developer from India. I am
+      Hi! I'm Aniket! <br />I am a full-stack web developer from India. I am
       specialising in techonolgies like TypeScript, Node.js, MongoDB, and
       Vue.js. I am currently doing a B. Tech. at Parul University @ Vadodara,
       Gujarat. <br /><br />When I'm not coding, I'm usually playing games with

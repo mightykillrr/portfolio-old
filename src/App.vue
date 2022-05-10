@@ -27,7 +27,7 @@ export default {
 *::before,
 *::after {
   margin: 0;
-  border: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -106,5 +106,5 @@ body {
   body {
     max-width: 350px;
   }
-} ;
+}
 </style>

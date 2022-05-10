@@ -1,12 +1,15 @@
 <template>
   <nav>
-    <div>
-      <img
-        src="../../assets/imgs/avatar.jpeg"
-        alt="An anime headshot picture"
-      />
-      <router-link to="/">Aniket Kotal</router-link>
-    </div>
+    <router-link to="/">
+      <div>
+        <img
+          src="../../assets/imgs/avatar.jpeg"
+          alt="An anime headshot picture"
+        />
+        Aniket Kotal
+      </div></router-link
+    >
+
     <router-link to="/work">My Works</router-link>
     <router-link to="/about">About Me</router-link>
   </nav>
