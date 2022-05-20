@@ -40,11 +40,6 @@
         link="http://www.instagram.com/aniketkotal/"
       />
       <SmallCard
-        logo="link"
-        text="Discord"
-        link="https://discord.gg/XSFakuvk"
-      />
-      <SmallCard
         logo="logo-steam"
         text="Steam"
         link="https://steamcommunity.com/id/mightykillrr/"
@@ -127,23 +122,14 @@ span {
 @media (max-width: 88.5em) {
   .links {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 2rem;
-  }
-}
-
-@media (max-width: 83em) {
-  .links {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    row-gap: 2rem;
+    /* grid-template-rows: 1fr 1fr;
+    row-gap: 2rem; */
   }
 }
 
 @media (max-width: 71em) {
   .links {
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
     row-gap: 2rem;
   }
 }
@@ -151,7 +137,6 @@ span {
 @media (max-width: 49em) {
   .links {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
     row-gap: 2rem;
   }
 }

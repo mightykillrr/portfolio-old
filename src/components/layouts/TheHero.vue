@@ -9,26 +9,13 @@
         text="My Projects &rarr;"
         link="/work"
       />
-      <BaseButton
-        type="flat"
-        text="Know more"
-        link="#knowMore"
-        @click.prevent="scrollDown"
-      />
+      <BaseButton type="flat" isRouter="yes" text="Know more" link="/about" />
     </div>
   </div>
 </template>
 
 <script>
-export default {
-  methods: {
-    scrollDown() {
-      const ar = document.querySelector(".featuredHome");
-      console.log(ar);
-      ar.scrollIntoView({ behavior: "smooth" });
-    },
-  },
-};
+export default {};
 </script>
 
 <style scoped>
