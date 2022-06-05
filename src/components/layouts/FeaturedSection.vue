@@ -39,6 +39,14 @@ export default {
         //   desc: "I found my new love for front-end development with Vue. I learnt it in a week!",
         // },
         {
+          image: require("../../assets/featured/stust.png"),
+          name: "Stust",
+          date: "May 2022",
+          type: "Project",
+          desc: "A fictional banking card designers.",
+          lang: ["Vue", "TailwindCSS", "HTML", "CSS", "JS"],
+        },
+        {
           image: require("../../assets/featured/advice-gen.png"),
           name: "Advice Generator",
           date: "Mar. 2022",
@@ -53,14 +61,6 @@ export default {
           type: "Project",
           desc: "A feature-rich Discord bot I made to help me with my server and give action commands with great GIFs.",
           lang: ["JS", "NodeJS", "MongoDB", "Heroku", "APIs"],
-        },
-        {
-          image: require("../../assets/featured/calc.jpg"),
-          name: "Advanced Calculator",
-          date: "June 2021",
-          type: "Project",
-          desc: "An advanced calculator and my first ever HUGE Python project.",
-          lang: ["Python", "Math"],
         },
         // {
         //   image: require("../../assets/featured/case_changer.jpg"),

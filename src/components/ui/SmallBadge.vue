@@ -13,6 +13,7 @@ export default {
         JS: "#ead41c",
         Vue: "#3eaf7c",
         Python: "#346794",
+        TailwindCSS: "#38bdf8",
       },
     };
   },
@@ -55,5 +56,8 @@ span {
 }
 .vue {
   background-color: #3eaf7c;
+}
+.tailwindcss {
+  background-color: #38bdf8;
 }
 </style>

@@ -31,13 +31,26 @@ export default {
   data() {
     return {
       featuredData: [
-        // {
-        //   image: require("../../assets/featured/vue_logo.png"),
-        //   name: "Finished Learning Vue.js!",
-        //   date: "Apr. 2022",
-        //   type: "Learning",
-        //   desc: "I found my new love for front-end development with Vue. I learnt it in a week!",
-        // },
+        {
+          image: require("../../assets/featured/stust.png"),
+          name: "Stust",
+          date: "May 2022",
+          type: "Project",
+          desc: "A fictional banking card designers.",
+          lang: ["Vue", "TailwindCSS", "HTML", "CSS", "JS"],
+          live: "https://stust.vercel.app",
+          link: "https://github.com/mightykillrr/stust_card_website",
+        },
+        {
+          image: require("../../assets/featured/portfolioprev.png"),
+          name: "My Portfolio",
+          date: "Apr. 2022",
+          type: "Project",
+          desc: "My first portfolio, the page you're looking at!",
+          lang: ["Vue", "HTML", "CSS", "JS"],
+          live: "https://aniketkotal.vercel.app",
+          link: "https://github.com/mightykillrr/portfolio2",
+        },
         {
           image: require("../../assets/featured/advice-gen.png"),
           name: "Advice Generator",
