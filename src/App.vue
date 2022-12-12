@@ -1,21 +1,26 @@
 <template>
-  <TheNavbar />
-  <router-view v-slot="{ Component }">
-    <transition name="fade" mode="out-in">
-      <component :is="Component" />
-    </transition>
-  </router-view>
-  <TheFooter />
+  <UpdatedSite />
+  <div class="main">
+    <TheNavbar />
+    <router-view v-slot="{ Component }">
+      <transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </transition>
+    </router-view>
+    <TheFooter />
+  </div>
 </template>
 
 <script>
 import TheFooter from "./components/layouts/TheFooter.vue";
 import TheNavbar from "./components/layouts/TheNavbar.vue";
+import UpdatedSite from "./components/layouts/UpdatedSite.vue";
 
 export default {
   components: {
     TheNavbar,
     TheFooter,
+    UpdatedSite,
   },
 };
 </script>
@@ -35,9 +40,12 @@ html {
   font-size: 62.5%;
 }
 
-body {
+.main {
   max-width: 1400px;
   margin: 0 auto;
+}
+
+body {
   font-family: "Fira Sans", sans-serif;
 }
 

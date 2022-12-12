@@ -21,6 +21,7 @@ export default {};
 <style scoped>
 em {
   color: #f66;
+  font-style: normal;
 }
 
 .button-container {
