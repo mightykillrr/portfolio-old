@@ -1,24 +1,13 @@
-# portfolio2
 
-## Project setup
-```
-npm install
-```
+# This page is no longer maintained
+I have learnt more about Vue over the months and decided to make a new site.
+Visit https://github.com/mightykillrr/portfolio to view the updated site.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+# My Personal Portfolio
+This is the source code to my personal page on the internet. You can give it a look at the link below!
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## View Site
+Check it out: [https://aniketkotal.vercel.app](https://aniketkotal.vercel.app/)
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Technologies Used
+- Vue.js v2
